@@ -5,15 +5,15 @@ This is a reality no interaction one-click script，only support Debian10+/Ubunt
 ## Reality
 Run the following command. The PORT can be customized,Removing PORT=8880 it will use a random port
 ```
-PORT=8880 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/reality.sh)
+PORT=8880 bash <(curl -Ls https://raw.githubusercontent.com/YoungDeveloper2025/scripts/master/reality.sh)
 ```
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/xhttp_reality.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/eooce/YoungDeveloper2025/master/xhttp_reality.sh)
 ```
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/test.sh) 
+bash <(curl -Ls https://raw.githubusercontent.com/eooce/YoungDeveloper2025/master/test.sh) 
 ```
 PORT,NEZHA_SERVER,NEZHA_PORT,NEZHA_KEY can be customized
 

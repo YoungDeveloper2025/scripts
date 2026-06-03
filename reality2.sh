@@ -5,7 +5,7 @@ sudo apt-get install -y jq openssl qrencode
 # Extract the desired variables
 export NAME=$(curl -s https://speed.cloudflare.com/meta | awk -F\" '{print $26"-"$18}' | sed -e 's/ /_/g')
 export PORT=${PORT:-'8880'}
-export SNI=${SNI:-'www.yahoo.com'}  
+export SNI=${SNI:-'play.google.com'}  
 export PATH=${PATH:-'%2F'}
 
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta

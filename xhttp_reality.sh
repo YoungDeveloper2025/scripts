@@ -98,10 +98,10 @@ main() {
         "network": "xhttp",
         "security": "reality",
         "realitySettings": {
-          "target": "www.nazhumi.com:443",
+          "target": "play.google.com:443",
           "xver": 0,
           "serverNames": [
-            "www.nazhumi.com"
+            "play.google.com"
           ],
           "privateKey": "$rePrivateKey",
           "shortIds": [
@@ -141,7 +141,7 @@ EOF
     # 删除运行脚本
     rm -f tcp-wss.sh install-release.sh reality.sh 
     IP=$(getIP)
-    url="vless://${UUID}@${IP}:${PORT}?encryption=none&security=reality&sni=www.nazhumi.com&fp=chrome&pbk=${rePublicKey}&sid=${shortId}&allowInsecure=1&type=xhttp&mode=auto#$ISP"
+    url="vless://${UUID}@${IP}:${PORT}?encryption=none&security=reality&sni=play.google.com&fp=chrome&pbk=${rePublicKey}&sid=${shortId}&allowInsecure=1&type=xhttp&mode=auto#$ISP"
         
     echo -e "\n\e[1;32mxhttp-reality 安装成功\033[0m\n"
     echo -e "\e[1;32m${url}\033[0m\n"
