@@ -101,7 +101,7 @@ main() {
           "target": "play-apps-features.googleusercontent.com:443",
           "xver": 0,
           "serverNames": [
-            "play.google.com"
+            "play-apps-features.googleusercontent.com"
           ],
           "privateKey": "$rePrivateKey",
           "shortIds": [
